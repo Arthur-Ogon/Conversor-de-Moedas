@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="/fotos/business-and-finance_resized.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="57x57" href="https://ayltoninacio.com.br/img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://ayltoninacio.com.br/img/favicons/apple-touch-icon-60x60.png">
+    
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">Conversor Online</a>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#" class="nav-link">PDF em Word</a></li> 
+        <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+      </ul>
+      <div class="hamburguer">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    
+  </header>
+
+  <main>
+    <div id="container">
+        <h1 id="titulo">Conversor de Moedas</h1>
+        <form id="convert-form">
+          <label class="sel-moedu">
+            Valor em Real (BRL)
+            <input type="number" id="brl-value" step="0.01" min="0" required placeholder="0,00">
+          </label>
+          <label class="sel-moeda">
+            Selecione a Moeda
+            <select id="currency-select" required>
+              <option class="pop" value="">Selecione...</option>
+              <option class="pop" value="USD">Dólar Americano (USD)</option>
+              <option class="pop" value="EUR">Euro (EUR)</option>
+              <option class="pop" value="GBP">Libra Esterlina (GBP)</option>
+              <option class="pop" value="ARS">Peso Argentino (ARS)</option>
+              <option class="pop" value="JPY">Iene (JPY)</option>
+              <option class="pop" value="AUD">Dólar australiano (AUD)</option>
+              <option class="pop" value="CHF">Franco suíço (CHF)</option>
+              <option class="pop" value="CAD">Dólar Canadense (CAD)</option>
+              <option class="pop" value="CNY">Renminbi (CNY)</option>
+              <option class="pop" value="TRY">Lira turca (TRY)</option>
+              <option class="pop" value="HKD">Dólar de Hong Kong (HKD)</option>
+              <option class="pop" value="MXN">Peso mexicano (MXN)</option>
+              <option class="pop" value="SEK">Coroa sueca (SEK)</option>
+              <option class="pop" value="SGD">Dólar de Cingapura (SGD)</option>
+              <option class="pop" value="NZD">Dólar da Nova Zelândia (NZD)</option>
+              <option class="pop" value="INR">Rupia indiana (INR)</option>
+              <option class="pop" value="KRW">Won sul coreano (KRW)</option>
+              <option class="pop" value="RUB">Rublo Russo (RUB)</option>
+
+            </select>
+          </label>
+          <button type="submit" id="button-submit">Converter</button>
+        </form>
+        <p id="result"></p>
+      </div>
+  </main>  
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 - Todos os direitos reservados</p>
+      <p>Conversor Online</p>
+    </div>
+    </div>
+      
+    </div>
+
+
+  </footer>
+
+
+      <script src="script.js"></script>
+
+
+    
+</body>
+</html>
